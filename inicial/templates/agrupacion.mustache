@@ -1,0 +1,75 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+
+{{!
+    @template block_inicial/segmento
+    Example context (json):
+    {
+    }
+}}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+
+
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+
+<body>
+   <div id="tablas">
+     <table  border="6.8"  id="example" class="display" style="width:50% ">
+       <thead>
+         <tr>
+           <th>Editar</th>
+           <!-- <th>id</th> -->
+           <th>Descripcion</th>
+         </tr>
+       </thead>
+       <tbody>
+        {{#agrupaciones}}
+            <tr>
+            <td align = "center">
+            <a href="https://calidad.laucmi.telefonicaed.pe/blocks/inicial/vistas/update_agrupacion.php?response_id={{id}}&response_descripcion={{descripcion}}" class ="btn btn-primary">Editar</a>
+            <a href="https://calidad.laucmi.telefonicaed.pe/blocks/inicial/vistas/index_agrupacion.php?response_id={{id}}&response_condicion=0" class ="btn btn-danger">Eliminar</a>
+            </td>
+            </td>
+            <!-- <td><a>{{id}}</a></td> -->
+            <td><a>{{descripcion}}</a></td>
+            </tr>
+        {{/agrupaciones}}
+        </tbody>
+    </table>
+    </div>
+</body>
+
+<script>
+      $(document).ready(function() {
+        $('#example').DataTable( {
+            dom: 'Bfrtip',
+            lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+            'pageLength'
+        ]
+        } );
+    } );
+
+</script>

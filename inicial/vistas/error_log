@@ -1,0 +1,1071 @@
+[10-May-2021 19:06:24 Europe/London] Default exception handler: Excepción - syntax error, unexpected '{', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) Debug: 
+Error code: generalexceptionmessage
+* line 5 of /blocks/inicial/modelos/segmento.php: ParseError thrown
+
+[10-May-2021 19:06:43 Europe/London] Default exception handler: Excepción - Call to undefined method segmento::display() Debug: 
+Error code: generalexceptionmessage
+* line 39 of /blocks/inicial/vistas/index_segmento.php: Error thrown
+
+[10-May-2021 19:32:08 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
+Error code: codingerror
+* line 428 of /lib/setuplib.php: coding_exception thrown
+* line 20 of /blocks/inicial/forms/segmento.php: call to default_error_handler()
+* line 214 of /lib/formslib.php: call to segmento->definition()
+* line 43 of /blocks/inicial/vistas/index_segmento.php: call to moodleform->__construct()
+
+[10-May-2021 19:38:59 Europe/London] Default exception handler: Error al leer de la base de datos Debug: Unknown column 'id_segmento' in 'where clause'
+SELECT descripcion FROM mdl_cmisegmento WHERE id_segmento = '1'
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 17 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 48 of /blocks/inicial/vistas/index_segmento.php: call to moodleform->__construct()
+
+[10-May-2021 21:26:20 Europe/London] Default exception handler: Excepción - Call to a member function addElement() on null Debug: 
+Error code: generalexceptionmessage
+* line 37 of /blocks/inicial/vistas/index_segmento.php: Error thrown
+
+[10-May-2021 21:26:53 Europe/London] Default exception handler: Excepción - Using $this when not in object context Debug: 
+Error code: generalexceptionmessage
+* line 27 of /blocks/inicial/vistas/index_segmento.php: Error thrown
+
+[10-May-2021 21:27:36 Europe/London] Default exception handler: Excepción - Using $this when not in object context Debug: 
+Error code: generalexceptionmessage
+* line 29 of /blocks/inicial/vistas/index_segmento.php: Error thrown
+
+[10-May-2021 21:27:39 Europe/London] Default exception handler: Excepción - Using $this when not in object context Debug: 
+Error code: generalexceptionmessage
+* line 29 of /blocks/inicial/vistas/index_segmento.php: Error thrown
+
+[10-May-2021 21:28:13 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: Invalid state passed to moodle_page::set_state. We are in state 0 and state 3 was requested. Debug: 
+Error code: codingerror
+* line 980 of /lib/pagelib.php: coding_exception thrown
+* line 1429 of /lib/outputrenderers.php: call to moodle_page->set_state()
+* line 26 of /blocks/inicial/vistas/edicion_segmento.php: call to core_renderer->footer()
+
+[10-May-2021 21:29:01 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: Invalid state passed to moodle_page::set_state. We are in state 0 and state 3 was requested. Debug: 
+Error code: codingerror
+* line 980 of /lib/pagelib.php: coding_exception thrown
+* line 1429 of /lib/outputrenderers.php: call to moodle_page->set_state()
+* line 26 of /blocks/inicial/vistas/edicion_segmento.php: call to core_renderer->footer()
+
+[10-May-2021 21:33:09 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: Invalid state passed to moodle_page::set_state. We are in state 0 and state 3 was requested. Debug: 
+Error code: codingerror
+* line 980 of /lib/pagelib.php: coding_exception thrown
+* line 1429 of /lib/outputrenderers.php: call to moodle_page->set_state()
+* line 26 of /blocks/inicial/vistas/edicion_segmento.php: call to core_renderer->footer()
+
+[11-May-2021 00:19:05 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 23 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 00:24:04 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 00:35:52 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 00:43:46 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 30 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 00:54:52 Europe/London] Default exception handler: Excepción - syntax error, unexpected '*' Debug: 
+Error code: generalexceptionmessage
+* line 21 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 00:55:51 Europe/London] Default exception handler: Excepción - syntax error, unexpected ',' Debug: 
+Error code: generalexceptionmessage
+* line 25 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 00:58:37 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 27 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:03:13 Europe/London] Default exception handler: Excepción - syntax error, unexpected '}', expecting end of file Debug: 
+Error code: generalexceptionmessage
+* line 37 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 01:07:02 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 22 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:08:38 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 22 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:10:02 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 23 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:10:34 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:11:30 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:11:51 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:12:00 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:13:04 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:16:02 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:18:11 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 24 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 01:20:37 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 29 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:33:18 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 29 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 20 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:38:43 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 29 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:39:17 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 29 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:40:20 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 29 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:42:03 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 29 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:45:16 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 34 of /blocks/inicial/forms/upsegmento.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 03:52:50 Europe/London] Default exception handler: Excepción - syntax error, unexpected '=', expecting ',' or ')' Debug: 
+Error code: generalexceptionmessage
+* line 23 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:00:47 Europe/London] Default exception handler: Excepción - syntax error, unexpected '=', expecting ',' or ')' Debug: 
+Error code: generalexceptionmessage
+* line 23 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:01:08 Europe/London] Default exception handler: Excepción - syntax error, unexpected '=', expecting ',' or ')' Debug: 
+Error code: generalexceptionmessage
+* line 23 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:01:14 Europe/London] Default exception handler: Excepción - Call to undefined function actualizar() Debug: 
+Error code: generalexceptionmessage
+* line 28 of /blocks/inicial/forms/upsegmento.php: Error thrown
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:01:41 Europe/London] Default exception handler: Excepción - syntax error, unexpected 'echo' (T_ECHO), expecting ';' Debug: 
+Error code: generalexceptionmessage
+* line 35 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:01:46 Europe/London] Default exception handler: Excepción - syntax error, unexpected 'echo' (T_ECHO), expecting ';' Debug: 
+Error code: generalexceptionmessage
+* line 35 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:02:05 Europe/London] Default exception handler: Excepción - Call to undefined function actualizar() Debug: 
+Error code: generalexceptionmessage
+* line 28 of /blocks/inicial/forms/upsegmento.php: Error thrown
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:02:27 Europe/London] Default exception handler: Excepción - Call to undefined function actualizar() Debug: 
+Error code: generalexceptionmessage
+* line 28 of /blocks/inicial/forms/upsegmento.php: Error thrown
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:02:57 Europe/London] Default exception handler: Excepción - syntax error, unexpected '-&gt;' (T_OBJECT_OPERATOR) Debug: 
+Error code: generalexceptionmessage
+* line 28 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:03:26 Europe/London] Default exception handler: Excepción - Call to undefined function actualizar() Debug: 
+Error code: generalexceptionmessage
+* line 28 of /blocks/inicial/forms/upsegmento.php: Error thrown
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:12:48 Europe/London] Default exception handler: Excepción - syntax error, unexpected ';' Debug: 
+Error code: generalexceptionmessage
+* line 30 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 04:17:35 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 24 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:18:44 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 24 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:20:03 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 26 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:20:46 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 26 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:22:28 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 26 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:23:18 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 27 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 04:24:12 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 27 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 33 of /blocks/inicial/forms/upsegmento.php: call to querySegmento->actualizar()
+* line 214 of /lib/formslib.php: call to upsegmento->definition()
+* line 22 of /blocks/inicial/vistas/update_segmento.php: call to moodleform->__construct()
+
+[11-May-2021 05:01:59 Europe/London] Default exception handler: Excepción - Call to a member function update_record() on null Debug: 
+Error code: generalexceptionmessage
+* line 27 of /blocks/inicial/modelos/segmento.php: Error thrown
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:02:24 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 1,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:04:13 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 27 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:08:08 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:09:24 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:11:03 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:12:22 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:12:42 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:13:14 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() no fields found. Debug: 
+Error code: codingerror
+* line 1568 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:13:31 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:14:14 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:15:27 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:16:07 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => '0',
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:17:16 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => '0',
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:18:05 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => '0',
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 05:19:18 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Data too long for column 'condicion' at row 1
+UPDATE mdl_cmisegmento SET condicion = ? WHERE id=?
+[array (
+  0 => 0,
+  1 => 5,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 28 of /blocks/inicial/modelos/segmento.php: call to mysqli_native_moodle_database->update_record()
+* line 23 of /blocks/inicial/vistas/index_segmento.php: call to querySegmento->eliminar()
+
+[11-May-2021 17:11:48 Europe/London] Default exception handler: Excepción - syntax error, unexpected ''jQuery(function(){' (T_ENCAPSED_AND_WHITESPACE) Debug: 
+Error code: generalexceptionmessage
+* line 30 of /blocks/inicial/forms/segmento.php: ParseError thrown
+
+[11-May-2021 17:13:22 Europe/London] Default exception handler: Excepción - syntax error, unexpected ''jQuery(function(){' (T_ENCAPSED_AND_WHITESPACE) Debug: 
+Error code: generalexceptionmessage
+* line 30 of /blocks/inicial/forms/segmento.php: ParseError thrown
+
+[11-May-2021 18:12:05 Europe/London] Default exception handler: Excepción - syntax error, unexpected '?&gt;', expecting function (T_FUNCTION) or const (T_CONST) Debug: 
+Error code: generalexceptionmessage
+* line 46 of /blocks/inicial/forms/upsegmento.php: ParseError thrown
+
+[11-May-2021 18:34:22 Europe/London] Default exception handler: Excepción - syntax error, unexpected 'btn' (T_STRING), expecting ',' or ';' Debug: 
+Error code: generalexceptionmessage
+* line 34 of /blocks/inicial/modelos/segmento.php: ParseError thrown
+
+[11-May-2021 18:41:25 Europe/London] Default exception handler: Excepción - syntax error, unexpected '¡Si' (T_STRING), expecting ',' or ';' Debug: 
+Error code: generalexceptionmessage
+* line 37 of /blocks/inicial/modelos/segmento.php: ParseError thrown
+
+[11-May-2021 19:18:34 Europe/London] Default exception handler: Excepción - Class 'upsegmento' not found Debug: 
+Error code: generalexceptionmessage
+* line 18 of /blocks/inicial/vistas/update_agrupacion.php: Error thrown
+
+[11-May-2021 22:19:30 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (nombre,years,months,id_agrupacion,id_segmento,valor) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '',
+  1 => 0,
+  2 => '',
+  3 => 0,
+  4 => 0,
+  5 => 0,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 66 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 22:36:06 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '0',
+  1 => '1',
+  2 => 'lll',
+  3 => '5664',
+  4 => '0',
+  5 => '0',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 22:44:36 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '0',
+  1 => '1',
+  2 => 'PRUEBA',
+  3 => 56690.970000000001,
+  4 => '0',
+  5 => '0',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 22:44:52 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '0',
+  1 => '1',
+  2 => 'PRUEBA',
+  3 => 450.63999999999999,
+  4 => '0',
+  5 => '1',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 23:34:18 Europe/London] Default exception handler: Excepción - Class 'uppresupuesto' not found Debug: 
+Error code: generalexceptionmessage
+* line 18 of /blocks/inicial/vistas/update_presupuesto.php: Error thrown
+
+[11-May-2021 23:55:33 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '2',
+  1 => '2',
+  2 => 'Emanuel',
+  3 => 100.0,
+  4 => '0',
+  5 => '0',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 23:56:04 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '0',
+  1 => '3',
+  2 => 'Cursointermedio',
+  3 => 50.0,
+  4 => '0',
+  5 => '1',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 23:56:23 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_2` FOREIGN KEY (`id_agrupacion`) REFERENCES `mdl_cmiagrupacion` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '2',
+  1 => '3',
+  2 => 'cursomoderno',
+  3 => 100.0,
+  4 => '1',
+  5 => '0',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[11-May-2021 23:57:32 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_2` FOREIGN KEY (`id_agrupacion`) REFERENCES `mdl_cmiagrupacion` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '1',
+  1 => '2',
+  2 => 'cursointer',
+  3 => 100.0,
+  4 => '1',
+  5 => '0',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 72 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 00:34:55 Europe/London] Default exception handler: Excepción - syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' Debug: 
+Error code: generalexceptionmessage
+* line 75 of /blocks/inicial/forms/presupuesto.php: ParseError thrown
+
+[12-May-2021 00:35:42 Europe/London] Default exception handler: Error escribiendo a la base de datos Debug: Cannot add or update a child row: a foreign key constraint fails (`u200878855_moodle31`.`mdl_cmipresupuesto`, CONSTRAINT `mdl_cmipresupuesto_ibfk_1` FOREIGN KEY (`id_segmento`) REFERENCES `mdl_cmisegmento` (`id`))
+INSERT INTO mdl_cmipresupuesto (years,months,nombre,valor,id_segmento,id_agrupacion) VALUES(?,?,?,?,?,?)
+[array (
+  0 => '0',
+  1 => '1',
+  2 => 'pre_gelder2',
+  3 => 1000.0,
+  4 => '0',
+  5 => '0',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 85 of /blocks/inicial/forms/presupuesto.php: call to mysqli_native_moodle_database->insert_record()
+* line 214 of /lib/formslib.php: call to presupuesto->definition()
+* line 16 of /blocks/inicial/vistas/create_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:01:31 Europe/London] Default exception handler: Error al leer de la base de datos Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and condicion = 1' at line 1
+SELECT id, descripcion FROM mdl_cmisegmento where and condicion = 1
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 33 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:01:40 Europe/London] Default exception handler: Error al leer de la base de datos Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and condicion = 1' at line 1
+SELECT id, descripcion FROM mdl_cmisegmento where and condicion = 1
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 33 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:08:22 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 102 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:09:18 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 102 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:10:47 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 103 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:13:29 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 104 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:14:40 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 104 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 02:16:04 Europe/London] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: moodle_database::update_record_raw() id field must be specified. Debug: 
+Error code: codingerror
+* line 1562 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 104 of /blocks/inicial/forms/uppresupuesto.php: call to mysqli_native_moodle_database->update_record()
+* line 214 of /lib/formslib.php: call to uppresupuesto->definition()
+* line 24 of /blocks/inicial/vistas/update_presupuesto.php: call to moodleform->__construct()
+
+[12-May-2021 17:51:47 Europe/London] Default exception handler: Error al leer de la base de datos Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT ce.*, cp.id, cp.nombre FROM mdl_cmiejecucion ce
+            INNER JOI...' at line 50
+SELECT
+    (case
+      WHEN cp.years = 0
+        THEN '2021'
+      WHEN cp.years = 1
+        THEN '2022'
+      WHEN cp.years = 2
+        THEN '2023'
+      WHEN cp.years = 3
+        THEN '2024'
+      WHEN cp.years = 4
+        THEN '2025'
+      WHEN cp.years = 5
+        THEN '2026'
+      WHEN cp.years = 6
+        THEN '2027'
+      WHEN cp.years = 7
+        THEN '2028'
+      WHEN cp.years = 8
+        THEN '2029'
+      WHEN cp.years = 9
+        THEN '2030'
+        end) as año,
+      (case
+        WHEN cp.months = 1
+          THEN 'Enero'
+        WHEN cp.months = 2
+          THEN 'Febrero'
+        WHEN cp.months = 3
+          THEN 'Marzo'
+        WHEN cp.months = 4
+          THEN 'Abril'
+        WHEN cp.months = 5
+          THEN 'Mayo'
+        WHEN cp.months = 6
+          THEN 'Junio'
+        WHEN cp.months = 7
+          THEN 'Julio'
+        WHEN cp.months = 8
+          THEN 'Agosto'
+        WHEN cp.months = 9
+          THEN 'Septiembre'
+        WHEN cp.months = 10
+          THEN 'Octubre'
+        WHEN cp.months = 11
+          THEN 'Noviembre'
+        WHEN cp.months = 12
+          THEN 'Diciembre'
+          end) as mes,
+      SELECT ce.*, cp.id, cp.nombre FROM mdl_cmiejecucion ce
+            INNER JOIN mdl_cmipresupuesto cp ON cp.id = ce.id_presupuesto
+            where ce.condicion = 1
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 67 of /blocks/inicial/modelos/ejecucion.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 28 of /blocks/inicial/vistas/index_ejecucion.php: call to queryEjecucion->listar()
+
+[12-May-2021 18:14:22 Europe/London] Default exception handler: Error al leer de la base de datos Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mdl_cmipresupuesto cp ON cp.id = ce.id_presupuesto
+        where ce.condicio...' at line 51
+SELECT ce.*,
+    (case
+      WHEN cp.years = 0
+        THEN '2021'
+      WHEN cp.years = 1
+        THEN '2022'
+      WHEN cp.years = 2
+        THEN '2023'
+      WHEN cp.years = 3
+        THEN '2024'
+      WHEN cp.years = 4
+        THEN '2025'
+      WHEN cp.years = 5
+        THEN '2026'
+      WHEN cp.years = 6
+        THEN '2027'
+      WHEN cp.years = 7
+        THEN '2028'
+      WHEN cp.years = 8
+        THEN '2029'
+      WHEN cp.years = 9
+        THEN '2030'
+        end) as año,
+      (case
+        WHEN cp.months = 1
+          THEN 'Enero'
+        WHEN cp.months = 2
+          THEN 'Febrero'
+        WHEN cp.months = 3
+          THEN 'Marzo'
+        WHEN cp.months = 4
+          THEN 'Abril'
+        WHEN cp.months = 5
+          THEN 'Mayo'
+        WHEN cp.months = 6
+          THEN 'Junio'
+        WHEN cp.months = 7
+          THEN 'Julio'
+        WHEN cp.months = 8
+          THEN 'Agosto'
+        WHEN cp.months = 9
+          THEN 'Septiembre'
+        WHEN cp.months = 10
+          THEN 'Octubre'
+        WHEN cp.months = 11
+          THEN 'Noviembre'
+        WHEN cp.months = 12
+          THEN 'Diciembre'
+          end) as mes,
+             cp.id, cp.nombre FROM mdl_cmiejecucion ce
+        INNER  mdl_cmipresupuesto cp ON cp.id = ce.id_presupuesto
+        where ce.condicion = 1
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 67 of /blocks/inicial/modelos/ejecucion.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 28 of /blocks/inicial/vistas/index_ejecucion.php: call to queryEjecucion->listar()
+
+[12-May-2021 18:14:33 Europe/London] Default exception handler: Error al leer de la base de datos Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mdl_cmipresupuesto cp ON cp.id = ce.id_presupuesto
+        where ce.condicio...' at line 51
+SELECT ce.*,
+    (case
+      WHEN cp.years = 0
+        THEN '2021'
+      WHEN cp.years = 1
+        THEN '2022'
+      WHEN cp.years = 2
+        THEN '2023'
+      WHEN cp.years = 3
+        THEN '2024'
+      WHEN cp.years = 4
+        THEN '2025'
+      WHEN cp.years = 5
+        THEN '2026'
+      WHEN cp.years = 6
+        THEN '2027'
+      WHEN cp.years = 7
+        THEN '2028'
+      WHEN cp.years = 8
+        THEN '2029'
+      WHEN cp.years = 9
+        THEN '2030'
+        end) as año,
+      (case
+        WHEN cp.months = 1
+          THEN 'Enero'
+        WHEN cp.months = 2
+          THEN 'Febrero'
+        WHEN cp.months = 3
+          THEN 'Marzo'
+        WHEN cp.months = 4
+          THEN 'Abril'
+        WHEN cp.months = 5
+          THEN 'Mayo'
+        WHEN cp.months = 6
+          THEN 'Junio'
+        WHEN cp.months = 7
+          THEN 'Julio'
+        WHEN cp.months = 8
+          THEN 'Agosto'
+        WHEN cp.months = 9
+          THEN 'Septiembre'
+        WHEN cp.months = 10
+          THEN 'Octubre'
+        WHEN cp.months = 11
+          THEN 'Noviembre'
+        WHEN cp.months = 12
+          THEN 'Diciembre'
+          end) as mes,
+             cp.id, cp.nombre FROM mdl_cmiejecucion ce
+        INNER  mdl_cmipresupuesto cp ON cp.id = ce.id_presupuesto
+        where ce.condicion = 1
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 67 of /blocks/inicial/modelos/ejecucion.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 28 of /blocks/inicial/vistas/index_ejecucion.php: call to queryEjecucion->listar()
+
+[12-May-2021 18:33:12 Europe/London] Default exception handler: Excepción - Class 'upejecucion' not found Debug: 
+Error code: generalexceptionmessage
+* line 23 of /blocks/inicial/vistas/update_ejecucion.php: Error thrown
+
+[17-May-2021 00:31:55 Europe/London] Default exception handler: Error al leer de la base de datos Debug: MySQL server has gone away
+SELECT * FROM mdl_context WHERE contextlevel = ? AND instanceid = ?
+[array (
+  0 => 50,
+  1 => '1',
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1624 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1596 of /lib/dml/moodle_database.php: call to moodle_database->get_record_sql()
+* line 1575 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6985 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 2623 of /lib/navigationlib.php: call to context_course::instance()
+* line 1300 of /lib/navigationlib.php: call to global_navigation->add_course()
+* line 4145 of /lib/navigationlib.php: call to global_navigation->initialise()
+* line 768 of /lib/pagelib.php: call to settings_navigation->__construct()
+* line 830 of /lib/pagelib.php: call to moodle_page->magic_get_settingsnav()
+* line 10 of /blocks/inicial/vistas/index_presupuesto.php: call to moodle_page->__get()
+
+[21-May-2021 14:42:49 Europe/London] Default exception handler: Error al leer de la base de datos Debug: MySQL server has gone away
+SELECT * FROM mdl_context WHERE contextlevel = ? AND instanceid = ?
+[array (
+  0 => 50,
+  1 => '1',
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1624 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1596 of /lib/dml/moodle_database.php: call to moodle_database->get_record_sql()
+* line 1575 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6985 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 2623 of /lib/navigationlib.php: call to context_course::instance()
+* line 1300 of /lib/navigationlib.php: call to global_navigation->add_course()
+* line 4145 of /lib/navigationlib.php: call to global_navigation->initialise()
+* line 768 of /lib/pagelib.php: call to settings_navigation->__construct()
+* line 830 of /lib/pagelib.php: call to moodle_page->magic_get_settingsnav()
+* line 10 of /blocks/inicial/vistas/index_presupuesto.php: call to moodle_page->__get()
+
+[21-May-2021 14:42:49 Europe/London] Default exception handler: Error al leer de la base de datos Debug: MySQL server has gone away
+SELECT * FROM mdl_context WHERE contextlevel = ? AND instanceid = ?
+[array (
+  0 => 50,
+  1 => '1',
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1624 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1596 of /lib/dml/moodle_database.php: call to moodle_database->get_record_sql()
+* line 1575 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6985 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 2623 of /lib/navigationlib.php: call to context_course::instance()
+* line 1300 of /lib/navigationlib.php: call to global_navigation->add_course()
+* line 4145 of /lib/navigationlib.php: call to global_navigation->initialise()
+* line 768 of /lib/pagelib.php: call to settings_navigation->__construct()
+* line 830 of /lib/pagelib.php: call to moodle_page->magic_get_settingsnav()
+* line 10 of /blocks/inicial/vistas/index_presupuesto.php: call to moodle_page->__get()
+
+[21-May-2021 21:00:14 Europe/London] Default exception handler: Error al leer de la base de datos Debug: MySQL server has gone away
+SELECT * FROM mdl_context WHERE contextlevel = ? AND instanceid = ?
+[array (
+  0 => 50,
+  1 => '1',
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1624 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1596 of /lib/dml/moodle_database.php: call to moodle_database->get_record_sql()
+* line 1575 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6985 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 2623 of /lib/navigationlib.php: call to context_course::instance()
+* line 1300 of /lib/navigationlib.php: call to global_navigation->add_course()
+* line 4145 of /lib/navigationlib.php: call to global_navigation->initialise()
+* line 768 of /lib/pagelib.php: call to settings_navigation->__construct()
+* line 830 of /lib/pagelib.php: call to moodle_page->magic_get_settingsnav()
+* line 10 of /blocks/inicial/vistas/index_presupuesto.php: call to moodle_page->__get()
+
